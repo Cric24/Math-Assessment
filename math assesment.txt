@@ -1,0 +1,151 @@
+print("* "*30)
+print("W E L C O M E  T O  M A T H  A S S E S M E N T  T E S T")
+print("* "*30)
+name=str(input("1.Name: "))
+print(name.title())
+age=int(input("2.Age: "))
+if age==9:
+    print(age)
+elif age==10:
+    print(age)
+elif age==11:
+    print(age)
+elif age==12:
+    print(age)
+else:
+    print("Invalid Age Try Again")
+    age = int(input("2.Age: "))
+gender=input("3.Gender: ")
+print(gender.title())
+Class=input("4.Class: ")
+N=print("Press 1 to do NST Test ")
+P=print("Press 2 to do PST Test ")
+A=int(input("Enter the respective Number "))
+if A==1:
+    print("Welcome to NST test")
+    count=0 
+    no_of_wrong_answers=0
+    no_of_right_answer=0
+    q1=int(input("1. Find the value 100-19= "))
+    if q1==81:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q2=int(input("2. Find the value 20+35= ")) 
+    if q2==55:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q3=int(input("3. Find the valeu of 40*40= "))
+    if q3==1600:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q4=int(input("4. Find the value of 100/2= "))
+    if q4==50:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q5=int(input("5. Find the value of 59*5= "))
+    if q5==295:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q6=int(input("6. Find the value of 1000/4= "))
+    if q6==250:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q7=int(input("7. Find the value of (3+7)/5= ")) 
+    if q7==2:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q8=int(input("8. Find the value of (10+20)/(20-5)= "))
+    if q8==2:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q9=int(input("9. Find the value of (20*5)/(10*2)= "))
+    if q9==5:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    q10=int(input("10. Find the value of (100/5)*(200/5)"))
+    if q10==800:
+             no_of_right_answer=no_of_right_answer+1
+    else:
+             no_of_wrong_answers=no_of_wrong_answers+1
+    print("THE NUMBER OF RIGHT ANSWER YOU ANSWERED IS=",no_of_right_answer)  
+    print("THE NUMBER OF WRONG ANSWER YOU ANSWERED IS=",no_of_wrong_answers)
+    if no_of_right_answer>4:
+        print("You can Do PST test")
+    else:
+        sys.exit(0)
+        
+else:
+    print("Welcome to PST Test")
+count=0 
+no_of_wrong_answers=0
+no_of_right_answer=0
+q1=int(input("1. Find the value 100-19= "))
+if q1==81:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q2=int(input("2. Find the value 20+35= ")) 
+if q2==55:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q3=int(input("3. Find the valeu of 40*40= "))
+if q3==1600:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q4=int(input("4. Find the value of 100/2= "))
+if q4==50:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q5=int(input("5. Find the value of 59*5= "))
+if q5==295:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q6=int(input("6. Find the value of 1000/4= "))
+if q6==250:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q7=int(input("7. Find the value 100-19= "))
+if q7==81:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q8=int(input("8. Find the value 20+35= ")) 
+if q8==55:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q9=int(input("9. Find the valeu of 40*40= "))
+if q9==1600:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+q10=int(input("10. Find the value of 100/2= "))
+if q10==50:
+    no_of_right_answer=no_of_right_answer+1
+else:
+    no_of_wrong_answers=no_of_wrong_answers+1
+    print("THE NUMBER OF RIGHT ANSWER YOU ANSWERED IS=",no_of_right_answer)  
+    print("THE NUMBER OF WRONG ANSWER YOU ANSWERED IS=",no_of_wrong_answers)
+if no_of_right_answer>4:
+    print("You Passed the examination")
+else:
+    print("You Have Failed The Examination")
+choice=input("press q to exit ")
+if choice=="q":
+    sys.exit(0)
+else:
+    main()
